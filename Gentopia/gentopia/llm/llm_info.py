@@ -1,6 +1,10 @@
 # Listing available LLMs
 
 TYPES = {
+<<<<<<< HEAD
+=======
+    "gpt-4o-mini": "OpenAI",
+>>>>>>> 050b5ca (Final)
     "gpt-3.5-turbo": "OpenAI",
     'text-davinci-003': "OpenAI",
     "gpt-4": "OpenAI",

@@ -13,10 +13,19 @@ from .gradio import *
 from .code_interpreter import PythonCodeInterpreter
 from .file_operation import WriteFile, ReadFile
 from .duckduckgo import DuckDuckGo
+<<<<<<< HEAD
+=======
+from .pdf_reading import PDFReading
+
+>>>>>>> 050b5ca (Final)
 
 
 def load_tools(name: str) -> BaseTool:
     name2tool = {
+<<<<<<< HEAD
+=======
+        "pdf_reading": PDFReading,
+>>>>>>> 050b5ca (Final)
         "arxiv_search": ArxivSearch,
         "calculator": Calculator,
         "python_code_interpreter": PythonCodeInterpreter,
